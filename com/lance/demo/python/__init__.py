@@ -1,5 +1,5 @@
 # coding=utf-8
-import sys;
+import sys
 
 # anywhere before print
 #   hello world
@@ -25,7 +25,7 @@ print "this is quote"
 #   raw_input("\ninput here\n")
 
 
-x = 'demo';
+x = 'demo'
 sys.stdout.write(x + '\n')
 
 data = "hello world"
@@ -60,4 +60,8 @@ if "hello" and "world":
 
 if "hello" and "world":
     print "yes"
+dataLoop = 1
+while dataLoop <= 10:
+    print dataLoop
+    dataLoop = dataLoop + 1
 
